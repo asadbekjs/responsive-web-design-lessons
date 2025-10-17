@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .features {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 24px;
+      }
+      /* Media queries  */
+      @media (max-width: 1024px) {
+        .features {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
+      }
+      @media (max-width: 768px) {
+        .features {
+          grid-template-columns: repeat(1, minmax(0, 1fr));
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="features">
+      <div class="feature__card">
+        <h3>Instant Diesel Discounts</h3>
+        <p>
+          Save up to $1.10 per gallon in discounts with deep annual savings per
+          driver for fleets.
+        </p>
+      </div>
+      <div class="feature__card">
+        <h3>Instant Diesel Discounts</h3>
+        <p>
+          Save up to $1.10 per gallon in discounts with deep annual savings per
+          driver for fleets.
+        </p>
+      </div>
+      <div class="feature__card">
+        <h3>Instant Diesel Discounts</h3>
+        <p>
+          Save up to $1.10 per gallon in discounts with deep annual savings per
+          driver for fleets.
+        </p>
+      </div>
+      <div class="feature__card">
+        <h3>Instant Diesel Discounts</h3>
+        <p>
+          Save up to $1.10 per gallon in discounts with deep annual savings per
+          driver for fleets.
+        </p>
+      </div>
+      <div class="feature__card">
+        <h3>Instant Diesel Discounts</h3>
+        <p>
+          Save up to $1.10 per gallon in discounts with deep annual savings per
+          driver for fleets.
+        </p>
+      </div>
+      <div class="feature__card">
+        <h3>Instant Diesel Discounts</h3>
+        <p>
+          Save up to $1.10 per gallon in discounts with deep annual savings per
+          driver for fleets.
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

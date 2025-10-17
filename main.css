@@ -1,0 +1,20 @@
+/* flex-container => flex-direction */
+.flex-container {
+  display: flex;
+  /* flex-direction: row; */
+  /* flex-wrap: wrap-reverse; */
+  /* flex-flow: row wrap; */
+  /* flex-wrap: wrap; */
+  align-content: space-between;
+  height: 800px;
+  padding: 20px;
+  background-color: #025955;
+  border-radius: 10px;
+}
+.flex-item {
+  padding: 60px 15px;
+  background-color: #fde8cd;
+  font-weight: bold;
+  margin: 10px;
+  border-radius: 10px;
+}
